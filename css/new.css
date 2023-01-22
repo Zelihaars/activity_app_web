@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/back.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.nav{
+
+    height: 10%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.048);
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+#logo{
+
+    width: 60px;
+    cursor: pointer;
+
+}
+
+nav{
+
+    flex: 1;
+    text-align: right;
+
+}
+
+nav ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0px 35px;
+
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.content{
+
+    display: flex;
+    height: 85%;
+    align-items: center;
+    padding-left: 20%;
+    padding-right:20%;
+    box-sizing: border-box;
+
+}
+
+h2{
+
+    font-size: 50px;
+
+}
+
+p{
+
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.columan{
+
+    flex-basis: 50%;
+
+}
+
+button{
+
+    width: 165px;
+    color: black;
+    font-size: 20px;
+    padding: 12px 0px;
+    margin-top: 30px;
+    border: 1px solid wheat;
+    border-radius: 20px;
+
+
+}
+
+button:hover{
+
+    background-color: rgba(101, 105, 101, 0.822);
+    color: white;
+
+}
+
+.cars{
+
+    width: 200px;
+    height: 210px;
+    display:  inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+
+}
+
+.cars h1{
+    background-size: rgb(0, 0, 0);
+    font-size: 18px;
+    color: black;
+    margin-left: 30px;
+}
+
+.car1{
+    background-image: url(img/login1.jpg);
+}
+.car1 h1{
+    margin-left: 50px;
+    font-size:20px;
+}
+.car2{
+    background-image: url(img/register1.jpg);
+}
+.car2 h1{
+    margin-left: 50px;
+    font-size:20px;
+}
+.car3{
+    background-image: url(img/login2.jpg);
+}
+.car4{
+    background-image: url(img/register2.jpg);
+}
+
+.cars:hover{
+
+    transform: translateY(-12px);
+    transition: 0.8s;
+
+}
